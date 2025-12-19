@@ -13,6 +13,6 @@ func main(){
 		panic(err)
 	}
 	fmt.Printf("Hello %s! This is the NOURUN programming language!\n", user.Username)
-	fmt.Printf("Feel free to type in commands\n")
+	fmt.Printf("Your commands\n")
 	repl.Start(os.Stdin, os.Stdout)
 }
